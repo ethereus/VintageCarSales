@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VintageCarSales</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <nav id="nav">
+       <ul>
+    		 <li><a href="index.html">Home</a></li>
+    		 <li><a href="About.html">About</a></li>
+    		 <li><a href="Carsforsale.html">Cars For Sale</a></li>
+         <li><a href="Gallery.html">Gallery</a></li>
+         <li><a href="Dealers.html">Dealers</a></li>
+         <li><a href="contact.html">Contact</a></li>
+
+    	 </ul>
+    </nav>
+
+<div class="header">
+<img src="images/logo.png" alt="logo" class="left" style="width:100px;height:100px;">
+  <h1> Vintage Car</h1>
+  <p> Antique wheels</p>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/blackcar.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/orangecar.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/slivercar2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="images/slivercar.jpg" style="width:100%">
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="images/lotscar.jpg" style="width:100%">
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<button  type="button "onclick="alert ('hello world')"click me </button>
+     Click Here to learn are history!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+
+    <script src="script.js"></script>
+  </body>
+</html>
