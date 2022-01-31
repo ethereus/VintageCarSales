@@ -1,9 +1,11 @@
 nav{
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   display: block;
   transition: top 0.3s;
+  height:50px;
 }
 
 
