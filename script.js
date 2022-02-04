@@ -1,17 +1,22 @@
-var PageTop;
+<script>
+var myVideo = document.getElementById("video1");
 
-navbar = document.getElementById('nav'); 
-
-window.addEventListener('scroll',function(){
-  
-  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  
-  if(scrollTop > PageTop){ 
-    navbar.style.top='-50px';
-  }
-  
-  else{
-    navbar.style.top='0';
-  }
-  
+function playPause() {
+  if (myVideo.paused)
+    myVideo.play();
+  else
+    myVideo.pause();
 }
+
+function makeBig() {
+    myVideo.width = 560;
+}
+
+function makeSmall() {
+    myVideo.width = 320;
+}
+
+function makeNormal() {
+    myVideo.width = 420;
+}
+</script>
