@@ -1,0 +1,70 @@
+body {
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: ;
+}
+
+#navi {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#navi ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+
+}
+
+#navi li {
+  float: LEFT;
+}
+
+#navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.imghead {
+  max-width: 100%;
+}
+
+.headertext h1 {
+  font-size: 5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.vinImg {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.button {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
