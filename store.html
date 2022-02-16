@@ -4,6 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Vintage Cars</title>
 <link href="style.css" rel="stylesheet" type="text/css" media="screen and (min-width: 500px)">
+<script src="script.js"></script>
+<script src="cars.js"></script>
 </head>
 
 <body>
@@ -22,6 +24,37 @@
     <img class="imghead" src="Images/banner.jpg" alt="Vintage Cars Banner">
     <div class="headertext"><h1>Store</h1></div>
   </header>
+
+  <br>
+
+    <div id="cart-wrap">
+
+      <div id="cart-products"></div>
+
+      <div id="cart-items"></div>
+    </div>
+
+    <template id="template-product">
+    <div class="p-item">
+      <img class="p-img"/>
+      <div class="p-name"></div>
+      <div class="p-desc"></div>
+      <div class="p-price"></div>
+      <button class="cart p-add">Add To Cart</button>
+    </div>
+    </template>
+
+    <template id="template-cart">
+    <div class="c-item">
+      <div class="c-name"></div>
+      <button class="c-del cart">X</button>
+      <input class="c-qty" type="number" min="0"/>
+    </div>
+    </template>
+    <template id="template-cart-checkout">
+      <button class="c-empty cart" onclick="cart.nuke()">Empty</button>
+      <button class="c-checkout cart" onclick="cart.checkout()">Checkout</button>
+    </template>
 
 
 
