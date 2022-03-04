@@ -1,7 +1,3 @@
-<div class="headertext"><h1>Here are your avaliable cars to look into below:</h1></div>
-  
-  public static void main(String[] args) {
-
 var products = {
   1: {
     name : "Car 1",
@@ -21,5 +17,4 @@ var products = {
     img : "bmw.jpg",
     price : 9000
   },
-};
-  }
+}; 
