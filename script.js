@@ -1,3 +1,5 @@
+//from Code Boxx
+
 var cart = {
 
   hPdt : null,
@@ -134,10 +136,5 @@ var cart = {
     cart.list();
   },
 
-  checkout : () => {
-
-    alert("purchase made!");
-
-  }
 };
 window.addEventListener("DOMContentLoaded", cart.init);
