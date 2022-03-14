@@ -1,3 +1,5 @@
+<!-- from https://adaptabiz.com/how-to-create-a-responsive-checkout-form-with-css/ -->
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -109,8 +111,8 @@ span.price {
 </head>
 <body>
 
-<h2>Responsive Checkout Form</h2>
-<p>Resize the browser window to see the effect. When the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<h2>VintageCarSales Checkout</h2>
+<p>Thank you for choosing VintageCarSales!</p>
 <div class="row">
   <div class="col-75">
     <div class="container">
@@ -126,16 +128,16 @@ span.price {
             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
             <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
             <label for="city"><i class="fa fa-institution"></i> City</label>
-            <input type="text" id="city" name="city" placeholder="New York">
+            <input type="text" id="city" name="city" placeholder="London">
 
             <div class="row">
               <div class="col-50">
-                <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="NY">
+                <label for="state">County</label>
+                <input type="text" id="county" name="county" placeholder="North Yorkshire">
               </div>
               <div class="col-50">
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="10001">
+                <label for="postcode">Postcode</label>
+                <input type="text" id="postcode" name="postcode" placeholder="AB1 2CD">
               </div>
             </div>
           </div>
@@ -171,19 +173,16 @@ span.price {
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
-        <input type="submit" value="Continue to checkout" class="btn">
+        <input type="submit" value="Continue" class="btn">
       </form>
     </div>
   </div>
   <div class="col-25">
     <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+      <p>Placeholder</a> <span class="price">£1000</span></p>
       <hr>
-      <p>Total <span class="price" style="color:black"><b>"Product 1" + "Product 2" + "Product 3" + "Product 4"</b></span></p>
+      <p>Total <span class="price" style="color:black"><b>£1000</b></span></p>
     </div>
   </div>
 </div>
