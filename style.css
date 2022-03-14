@@ -163,7 +163,7 @@ input.cart, button.cart {
   background-size: cover;
   position: relative;
 }
-  
+
 .hero-image {
   background-image: url("Images/yellowcar.jpg");
   background-color: #cccccc;
@@ -179,4 +179,8 @@ input.cart, button.cart {
   justify-content: center;
   color: whitesmoke;
   font-size: 25px;
+}
+
+.table, .th, .td {
+  border:1px solid black;
 }
