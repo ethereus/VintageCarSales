@@ -83,7 +83,10 @@
     </template>
     <template id="template-cart-checkout">
       <button class="c-empty cart" onclick="cart.nuke()">Empty</button>
-      <button class="c-checkout cart" onclick="checkout.html">Checkout</button>
+      <form action="/checkout.html">
+        <input type="submit" value="Checkout" />
+      </form>
+
     </template>
 
 
