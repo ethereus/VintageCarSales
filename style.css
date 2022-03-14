@@ -144,3 +144,39 @@ input.cart, button.cart {
     grid-template-columns: 100%;
   }
 }
+
+.hero-image {
+  background-image: url("Images/old.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image {
+  background-image: url("Images/bmw.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+  
+.hero-image {
+  background-image: url("Images/yellowcar.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.center-list {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 25px;
+}
