@@ -230,6 +230,12 @@ input[type=text] {
   border-radius: 3px;
 }
 
+label[for=fname] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
 label {
   margin-bottom: 10px;
   display: block;
