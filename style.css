@@ -242,6 +242,30 @@ label[for=lname] {
   width: 100%;
 }
 
+label[for=email] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
+label[for=number] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
+label[for=state] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
+label[for=state] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
 label {
   margin-bottom: 10px;
   display: block;
