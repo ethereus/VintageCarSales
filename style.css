@@ -313,3 +313,13 @@ span.price {
     margin-bottom: 20px;
   }
 }
+
+<html>
+<head>
+<style>
+body  {
+  background-image: url("Images/bmw.jpg");
+}
+</style>
+</head>
+<body>
