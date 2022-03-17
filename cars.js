@@ -26,4 +26,13 @@ var products = {
     img4 : "bmw.jpg",
     price : 9000
   },
+  4: {
+    name : "Car 4",
+    desc : "fourth car listing",
+    img : "bmw.jpg",
+    img2 : "bmw.jpg",
+    img3 : "bmw.jpg",
+    img4 : "bmw.jpg",
+    price : 11000
+  },
 };
