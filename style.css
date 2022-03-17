@@ -230,6 +230,12 @@ input[type=text] {
   border-radius: 3px;
 }
 
+h3[class=center-list] {
+  color: #000000;
+  text color: white
+  width: 100%;
+}
+
 label[for=fname] {
   color: #000000;
   text color: white
