@@ -139,6 +139,8 @@ var cart = {
     cart.save();
     cart.list();
   },
+  
+  nuke : () => { if (confirm("Testing session booked and confirmed")) {
 
 };
 window.addEventListener("DOMContentLoaded", cart.init);
