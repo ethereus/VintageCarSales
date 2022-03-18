@@ -314,9 +314,9 @@ span.price {
   }
 }
 
-#test-drive-body {
+.test-drive-body {
   
- background-image: url("paper.gif");
- background-image: url("Images/bmw.jpg");
- background-color: #cccccc;
+  background-image: url("paper.gif");
+  background-image: url("Images/bmw.jpg");
+  background-color: #cccccc;
 }
