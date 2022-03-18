@@ -32,7 +32,6 @@ var cart = {
 
     cart.hPdt = document.getElementById("cart-products");
     cart.hItems = document.getElementById("cart-items");
-    
 
     cart.hPdt.innerHTML = "";
     let template = document.getElementById("template-product").content,
@@ -138,4 +137,11 @@ var cart = {
   },
 
 };
+
 window.addEventListener("DOMContentLoaded", cart.init);
+
+
+function book() {
+
+  if (confirm("Book Test Drive?"));
+}
