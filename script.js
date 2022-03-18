@@ -144,4 +144,10 @@ window.addEventListener("DOMContentLoaded", cart.init);
 function book() {
 
   if (confirm("Book Test Drive?"));
+  
+  function OK() {
+    
+    if (confirm("Test Drive confirmed and booked"));
+    
+  }
 }
