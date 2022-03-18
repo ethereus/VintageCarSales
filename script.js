@@ -32,6 +32,10 @@ var cart = {
 
     cart.hPdt = document.getElementById("cart-products");
     cart.hItems = document.getElementById("cart-items");
+    
+  book : () => { if (confirm("Book Test Drive?")) {
+
+  }},
 
     cart.hPdt.innerHTML = "";
     let template = document.getElementById("template-product").content,
