@@ -33,9 +33,6 @@ var cart = {
     cart.hPdt = document.getElementById("cart-products");
     cart.hItems = document.getElementById("cart-items");
     
-  book : () => { if (confirm("Book Test Drive?")) {
-
-  }},
 
     cart.hPdt.innerHTML = "";
     let template = document.getElementById("template-product").content,
@@ -139,9 +136,6 @@ var cart = {
     cart.save();
     cart.list();
   },
-  
-  var book = {
-  nuke : () => { if (confirm("Testing session booked and confirmed")) {
 
 };
 window.addEventListener("DOMContentLoaded", cart.init);
