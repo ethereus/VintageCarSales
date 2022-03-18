@@ -314,12 +314,9 @@ span.price {
   }
 }
 
-<html>
-<head>
-<style>
-body  {
-  background-image: url("Images/bmw.jpg");
+#test-drive-body {
+  
+ background-image: url("paper.gif");
+ background-image: url("Images/bmw.jpg");
+ background-color: #cccccc;
 }
-</style>
-</head>
-<body>
