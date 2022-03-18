@@ -140,6 +140,7 @@ var cart = {
     cart.list();
   },
   
+  var book = {
   nuke : () => { if (confirm("Testing session booked and confirmed")) {
 
 };
