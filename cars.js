@@ -12,9 +12,9 @@ var products = {
     name : "Car 2",
     desc : "second car listing",
     img : "mercseidfe.jpg",
-    img2 : "bmw.jpg",
-    img3 : "bmw.jpg",
-    img4 : "bmw.jpg",
+    img2 : "mercseidfe.jpg",
+    img3 : "mercseidfe.jpg",
+    img4 : "mercseidfe.jpg",
     price : 4000
   },
   3: {
