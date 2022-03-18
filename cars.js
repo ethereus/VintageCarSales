@@ -11,7 +11,7 @@ var products = {
   2: {
     name : "Car 2",
     desc : "second car listing",
-    img : "bmw.jpg",
+    img : "mercseidfe.jpg",
     img2 : "bmw.jpg",
     img3 : "bmw.jpg",
     img4 : "bmw.jpg",
