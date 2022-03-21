@@ -15,7 +15,7 @@
      <li><a href="store.html">Store</a></li>
      <li><a href="dealers.html">Dealers</a></li>
      <li><a href="ourbrand.html">Our brand</a></li>
-     <li><a href="testdrive.html">Test drive </a></li>
+     <li><a href="testdrive.php">Test drive </a></li>
      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
@@ -76,7 +76,7 @@
 
     <template id="template-cart">
     <div class="c-item">
-      <div class="c-name"></div>
+      <div class="c-name" id="cartItem"></div>
       <button class="c-del cart">X</button>
       <input class="c-qty" type="number" min="0"/>
     </div>
@@ -85,14 +85,10 @@
       <button class="c-empty cart" onclick="cart.nuke()">Empty</button>
       <br>
       <form action="checkout.php">
-        <input class = "c-checkout cart" type="submit" value="Checkout" />
+        <input class = "c-checkout cart" type="submit" value="Checkout" onclick="cookieFunction1()"/>
       </form>
 
     </template>
-
-
-
-
 
   <footer></footer>
 

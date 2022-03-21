@@ -1,4 +1,13 @@
+
 <!-- from https://adaptabiz.com/how-to-create-a-responsive-checkout-form-with-css/ -->
+
+<script>
+        
+  window.onload = function() {
+    cookieFunction2();
+  };
+      
+</script>
 
 <html>
 
@@ -29,10 +38,10 @@
   $response = $mj->post(Resources::$Email, ['body' => $body]);
 ?>
 
-
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
 <style>
 body {
   font-family: Arial;
@@ -210,9 +219,10 @@ span.price {
   <div class="col-25">
     <div class="container">
       <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
-      <span class="price"></span></p>
+      <p id="cartItem"></p>
       <hr>
-      <p>Total <span class="price" style="color:black"><b></b></span></p>
+      <p>Total <span class="price" style="color:black"><b></b></span>
+      <p id="cartPrice"></p>
     </div>
   </div>
 </div>

@@ -1,5 +1,45 @@
 //from Code Boxx
 
+function createCookie(name, value, days) {
+    var expires;
+
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toGMTString();
+    }
+    else {
+        expires = "";
+    }
+
+    document.cookie = escape(name) + "=" + 
+        escape(value) + expires + "; path=/";
+}
+
+
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
 var cart = {
 
   hPdt : null,
@@ -93,6 +133,7 @@ var cart = {
       item.className = "c-total";
       item.id = "c-total";
       item.innerHTML ="TOTAL: £" + total;
+      setCookie("total", total, 30);
       cart.hItems.appendChild(item);
 
       item = document.getElementById("template-cart-checkout").content.cloneNode(true);
@@ -107,6 +148,8 @@ var cart = {
     else { cart.items[id]++; }
 
     cart.save(); cart.list();
+
+
   },
 
   change : (pid, qty) => {
@@ -127,6 +170,7 @@ var cart = {
         document.getElementById("c-total").innerHTML ="TOTAL: £" + total;
       }
     }
+
   },
 
   remove : (id) => {
@@ -150,4 +194,20 @@ function book() {
     if (confirm("Test Drive confirmed and booked"));
     
   }
+}
+
+function cookieFunction1() {
+
+  let x = document.getElementById("cartItem").innerHTML;
+  setCookie("car", x, 30);
+
+}
+
+function cookieFunction2() {
+
+  let x = getCookie("car");
+  document.getElementById("cartItem").innerHTML = x;
+  let y = getCookie("total");
+  document.getElementById("cartPrice").innerHTML = "£ " + y;
+  
 }

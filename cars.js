@@ -1,6 +1,6 @@
 var products = {
   1: {
-    name : "Car 1",
+    name : "BMW",
     desc : "first car listing",
     img : "bmw.jpg",
     img2 : "bmw.jpg",
@@ -9,27 +9,27 @@ var products = {
     price : 8000
   },
   2: {
-    name : "Car 2",
+    name : "Ford",
     desc : "second car listing",
-    img : "bmw.jpg",
+    img : "ford.jpg",
     img2 : "bmw.jpg",
     img3 : "bmw.jpg",
     img4 : "bmw.jpg",
     price : 4000
   },
   3: {
-    name : "Car 3",
+    name : "Mercedes",
     desc : "third car listing",
-    img : "bmw.jpg",
+    img : "merc.jpg",
     img2 : "bmw.jpg",
     img3 : "bmw.jpg",
     img4 : "bmw.jpg",
     price : 9000
   },
   4: {
-    name : "Car 4",
+    name : "VW",
     desc : "fourth car listing",
-    img : "bmw.jpg",
+    img : "vw.jpg",
     img2 : "bmw.jpg",
     img3 : "bmw.jpg",
     img4 : "bmw.jpg",
