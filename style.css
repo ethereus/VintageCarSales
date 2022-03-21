@@ -350,3 +350,13 @@ span.price {
   cursor: pointer;
   text-align: center;
 }
+
+.ford.jpg {
+  display: ford.jpg;
+  width: 200%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
