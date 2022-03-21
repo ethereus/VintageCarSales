@@ -321,8 +321,18 @@ span.price {
   background-color: #cccccc;
 }
 
-.block {
+.Test Drive! {
   display: Test Drive!;
+  width: 200%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Click Me! {
+  display: Click Me!;
   width: 200%;
   border: none;
   padding: 14px 28px;
