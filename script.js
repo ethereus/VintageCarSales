@@ -216,4 +216,10 @@ function cookieFunction2() {
   let y = getCookie("total");
   document.getElementById("cartPrice").innerHTML = "£ " + y;
   
+} 
+
+document.querySelector('bmw.jpg').onclick = function() {
+    var image = document.getElementById('bmw.jpg');
+    image.style.width = '156px';
+    image.style.height = '156px';
 }
