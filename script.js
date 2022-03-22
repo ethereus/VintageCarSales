@@ -223,3 +223,9 @@ document.querySelector('bmw.jpg').onclick = function() {
     image.style.width = '156px';
     image.style.height = '156px';
 }
+
+document.querySelector('bmw.jpg').onclick = function() {
+    var image = document.getElementById('bmw.jpg');
+    image.style.width = '156px';
+    image.style.height = '156px';
+}
