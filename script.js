@@ -33,6 +33,12 @@ function getCookie(cname) {
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
     }
+      
+      document.querySelector('button').onclick = function() {
+    var image = document.getElementById('container');
+    image.style.width = '156px';
+    image.style.height = '156px';
+}
     if (c.indexOf(name) == 0) {
       return c.substring(name.length, c.length);
     }
