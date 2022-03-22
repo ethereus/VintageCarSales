@@ -323,7 +323,7 @@ span.price {
 
 .Test Drive! {
   display: Test Drive!;
-  width: 200%;
+  width: 100%;
   border: none;
   padding: 14px 28px;
   font-size: 16px;
@@ -333,7 +333,7 @@ span.price {
 
 .Click Me! {
   display: Click Me!;
-  width: 200%;
+  width: 100%;
   border: none;
   padding: 14px 28px;
   font-size: 16px;
