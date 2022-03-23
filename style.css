@@ -373,3 +373,14 @@ span.price {
   cursor: pointer;
   text-align: center;
 }
+
+.vw.jpg {
+  display: vw.jpg;
+  width: 200%;
+  height: 200%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
