@@ -384,3 +384,8 @@ span.price {
   cursor: pointer;
   text-align: center;
 }
+
+h1[for=Home] {
+  text color: black
+  width: 100%;
+}
