@@ -315,7 +315,7 @@ span.price {
 }
 
 .test-drive-body {
-  
+
   background-image: url("paper.gif");
   background-image: url("Images/bmw.jpg");
   background-color: #cccccc;
@@ -388,4 +388,60 @@ span.price {
 h1[for=Home] {
   text color: black
   width: 100%;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+
+  background-image: url("images/banner.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img {
+
+  background-image: url("images/bmw.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+
+    background-image: url("images/old.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2 {
+
+    background-image: url("images/yellowcar.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 19%;
+  left: 33%;
+  font-size: 100px;
+}
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  font-size: 30px;
+  color: black;
+}
+h1 {
+  font-size: 45px;
+  color: black;
 }
